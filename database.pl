@@ -21,4 +21,4 @@ sintoma(dengue, tontura).
 sintoma(dengue, dor_olhos).
 
 % Rules
-doenca(A,B,C,D,E) :- sintoma(X, A), sintoma(X, B), sintoma(X, C), sintoma(X, D), sintoma(X, E), write(X), !.
+doenca(X,A,B,C,D,E) :- sintoma(X, A), sintoma(X, B), sintoma(X, C), sintoma(X, D), sintoma(X, E), !.
